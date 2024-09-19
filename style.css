@@ -1,0 +1,98 @@
+
+:root {
+ --color01 : #7C35DB;
+ --color02 : #5D0CDB;
+ --color03 : #CC10DB;
+ --color04 : #CC8DDB;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: var(--color04);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+header{
+ background:linear-gradient(to top, black, purple);
+ text-align: center;
+ font-family: justify;
+ min-height: 150px;
+}
+header h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 56px;
+    color: var(--color04);
+}
+header p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+main{
+    background-color: var(--color02);
+    border-radius: 7px;
+    max-width: 800px;
+    margin: auto;
+}
+section h2{
+background-color: var(--color03);
+border-radius: 10px;
+text-align: center;
+color: black;
+}
+section p{
+    white-space: pre-wrap;
+    font-family: 'Georgia', serif;
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 20px;
+    background-color: var(--color01);
+    font-style: italic;
+    border-radius: 6px;
+}
+.caixa{
+    background-color: lightgray;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:black;
+    padding: 2%;
+}
+button{
+    border: rgb(0, 216, 0);
+    background-color:rgb(3, 172, 3) ;
+    padding: 15px;
+    border-radius: 15px;
+   margin-left:35%;
+}
+a{
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: larger;
+}
+footer h6{
+    color: var(--color02);
+    background-color: black;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.praia{
+    text-align: center;
+    float: right;
+    margin-right: 7%;
+    margin-top: 7%;
+}
+.motinha{
+    text-align: center;
+    float: right;
+    margin-right: 7%;
+    margin-top: 7%;
+}
+.só{
+    text-align: center;
+    float: right;
+    margin-right: 7%;
+    margin-top: 7%;
+}
